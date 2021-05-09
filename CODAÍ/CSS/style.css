@@ -7,6 +7,12 @@ body {
     text-decoration: none;
 }
 
+.link-projetos {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 18px;
+}
+
 .eu {
     text-decoration: none;
     color: black;
@@ -134,7 +140,7 @@ body {
         justify-content: flex-end;
         align-content: center;
         background-color: white !important;
-        box-shadow: -10px 5px 10px 0px rgb(74, 79, 78);
+        box-shadow: -10px 5px 10px 0px rgb(33, 36, 35);
         border-radius: 15px;
     }
 
