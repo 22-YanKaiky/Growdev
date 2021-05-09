@@ -135,6 +135,7 @@ body {
         align-content: center;
         background-color: white !important;
         box-shadow: -10px 5px 10px 0px rgb(74, 79, 78);
+        border-radius: 15px;
     }
 
     .card-perfil {
