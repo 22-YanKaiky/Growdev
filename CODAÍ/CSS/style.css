@@ -11,6 +11,7 @@ body {
     text-decoration: none;
     text-align: justify;
     font-size: 18px;
+    color: #000000;
 }
 
 .eu {
@@ -63,6 +64,7 @@ body {
     border: 4px solid rgb(255, 255, 255);
     border-radius: 50%;
     margin-top: 1em;
+    border: 4px solid #ccd4d5;
 }
 
 .card-perfil {
@@ -84,7 +86,7 @@ body {
 }
 
 #btn-projeto {
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     padding: 5px 25px;
     font-weight: 600;
@@ -140,7 +142,7 @@ body {
         justify-content: flex-end;
         align-content: center;
         background-color: white !important;
-        box-shadow: -10px 5px 10px 0px rgb(33, 36, 35);
+        box-shadow: -10px 5px 10px 0px rgb(49, 54, 55);
         border-radius: 15px;
     }
 
