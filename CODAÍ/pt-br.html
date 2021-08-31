@@ -1,143 +1,244 @@
 <!DOCTYPE html>
 <html lang="pt-br" onclick="clickNoTraducao()">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yan Kaiky A. Santos</title>
-        <link rel = "preconnect" href = "https://fonts.gstatic.com">
-        <link href = "https://fonts.googleapis.com/css2? family = Poppins: wght @ 600 & display = swap" rel = "stylesheet">
-        <link rel="stylesheet" href="./CSS/bootstrap.css">
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yan Kaiky A. Santos</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Poppins: wght @ 600 & display = swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/bootstrap.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
 
-    <body>
-        <div class="container-fluid container-linear">
-            <div class="row container-card">
+  <body>
+    <div class="container-fluid container-linear">
+      <div class="row container-card">
+        <!--Mudando a linguagem-->
+        <div class="traducao-en" title="Inglês">
+          <a href="./en.html" id="btn-traducao">
+            <i class="fa fa-language"></i>
+          </a>
+        </div>
+        <!--Fim-->
 
-                <!--Mudando a linguagem-->
-                <div class="traducao-en" title="Inglês">
-                    <a href="./en.html" id="btn-traducao">
-                        <i class="fa fa-language"></i>
-                    </a>
-                </div>
-                <!--Fim-->
-
-                <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
-                    <div class="card card-perfil">
-                        <div class="img-card-perfil">
-                            <a href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/" target="_blank">
-                                <img title="Yan Kaiky - LinkedIn" src="./IMAGENS/Yan Kaiky.jpg" alt="My profile picture" class="card-image mx-auto d-block">
-                            </a>
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="text-center card-title" id="nome-no-html"></h5>
-                            <hr class="hr"/>
-                            <p class="text-center" id="cargo-no-html"></p>
-
-                            <div class="botoes-card">
-                                <button onclick="clickNoSobre()" class="btn mr-1" id="btn-sobre">Sobre</button>
-                                <button onclick="clickNoProjetos()" class="btn ml-1 btn-card" id="btn-projeto">Projetos</button>
-                            </div>
-
-                            <div class="icon-redes-sociais">
-                                <div class="links-redes-socias mt-2">
-                                    <a class="spaces" href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/" target="_blank">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-
-                                    <a class="spaces" href="https://www.instagram.com/yank.a.s.12/" target="_blank">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-
-                                    <a class="spaces" href="https://www.facebook.com/yankaikyaugusto.dossantos" target="_blank">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-
-                                    <a class="spaces" href="https://github.com/22-YanKaiky" target="_blank">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-6 text-body">
-                    
-                    <div class="text" id="texto-1">
-                        <h1 class="title-text">Olá</h1>
-                        <h4 class="title-subtitle">Bem vindo ao meu currículo</h4>
-                        <p>
-                            Iniciei os meus estudos em programação aos 16 anos de idade, mas comecei a programar aos 18 anos. Hoje, foco o meu tempo em programar adquirindo conhecimento em novas linguagens.
-                        </p>
-                        <p>
-                            Sou flexível, determinado e persistente. Gosto de trabalhar em grupo e interagir com novas ideias.
-                        </p>
-                    </div>
-
-                    <div class="text" id="texto-2">
-                        <h1 class="title-text">Projetos</h1>
-                        <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
-                        <p>
-                            <a class="link-projetos" href="https://github.com/22-YanKaiky/Google-Glass.git" target="_blank">● Google Glass - Feito com o Curso em Video.</a>
-                            <br><br>
-                            <a class="link-projetos" href="https://code.dcoder.tech/files/code/5f1a20705146e429a463a74c/iara" target="_blank">● I.A.R.A. - 'Inteligência Artificial Remotamente Ativa'. Criada por mim sabendo apenas o básico da linguagem C#.</a>                       
-                        </p>
-                    </div>
-                </div>
+        <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+          <div class="card card-perfil">
+            <div class="img-card-perfil">
+              <a
+                href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/"
+                target="_blank"
+              >
+                <img
+                  title="Yan Kaiky - LinkedIn"
+                  src="./IMAGENS/Yan Kaiky.jpg"
+                  alt="My profile picture"
+                  class="card-image mx-auto d-block"
+                />
+              </a>
             </div>
+
+            <div class="card-body">
+              <h5 class="text-center card-title" id="nome-no-html"></h5>
+              <hr class="hr" />
+              <p class="text-center" id="cargo-no-html"></p>
+
+              <div class="botoes-card">
+                <button
+                  onclick="clickNoSobre()"
+                  class="btn mr-1"
+                  id="btn-sobre"
+                >
+                  Sobre
+                </button>
+                <button
+                  onclick="clickNoProjetos()"
+                  class="btn ml-1 btn-card"
+                  id="btn-projeto"
+                >
+                  Projetos
+                </button>
+              </div>
+
+              <div class="icon-redes-sociais">
+                <div class="links-redes-socias mt-2">
+                  <a
+                    class="spaces"
+                    href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+
+                  <a
+                    class="spaces"
+                    href="https://www.instagram.com/yank.a.s.12/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <a
+                    class="spaces"
+                    href="https://www.facebook.com/yankaikyaugusto.dossantos"
+                    target="_blank"
+                  >
+                    <i class="fab fa-facebook"></i>
+                  </a>
+
+                  <a
+                    class="spaces"
+                    href="https://github.com/22-YanKaiky"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <footer class="container">
-            <div class="row" id="footer-elementos">
-                <div class="col-md-3 col-lg-3">
-                    <h4>Telefone</h4>
-                    <a href="tel:+554799955" target="_blank" class="eu">
-                        <p>(47) 99955-6723</p>
-                    </a>
-                </div>
+        <div class="col-md-6 col-lg-6 text-body">
+          <div class="text" id="texto-1">
+            <h1 class="title-text">Olá</h1>
+            <h4 class="title-subtitle">Bem vindo ao meu currículo</h4>
+            <p>
+              Iniciei os meus estudos em programação aos 16 anos de idade, mas
+              comecei a programar aos 18 anos. Hoje, foco o meu tempo em
+              programar adquirindo conhecimento em novas linguagens.
+            </p>
+            <p>
+              Sou flexível, determinado e persistente. Gosto de trabalhar em
+              grupo e interagir com novas ideias.
+            </p>
+          </div>
 
-                <div class="col-md-3 col-lg-3">
-                    <div class="email">
-                        <h4>E-mail</h4>
-                        <p>
-                            <a class="eu" href="mailto:yankaikys@.com">yankaikys@gmail.com</a>
-                        </p>
-                    </div>
-                </div>
+          <div class="text" id="texto-2">
+            <h1 class="title-text">Projetos</h1>
+            <h4 class="title-subtitle">Alguns projetos que trabalhei</h4>
+            <!-- <p>
+              <a
+                class="link-projetos"
+                href="https://github.com/22-YanKaiky/Google-Glass.git"
+                target="_blank"
+                >● Google Glass - Feito com o Curso em Video.</a
+              >
+              <br /><br />
+              <a
+                class="link-projetos"
+                href="https://code.dcoder.tech/files/code/5f1a20705146e429a463a74c/iara"
+                target="_blank"
+                >● I.A.R.A. - 'Inteligência Artificial Remotamente Ativa'.
+                Criada por mim sabendo apenas o básico da linguagem C#.</a
+              >
+            </p> -->
 
-                <div class="col-md-3 col-lg-3">
-                    <h4>Siga</h4>
-                    <div class="links-redes-sociais">
-                        <a class="spaces" href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        
-                        <a class="spaces" href="https://www.instagram.com/yank.a.s.12/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+            <section class="projetos">
+              <div class="row-column-1">
+                <div class="blocks">Google Glass</div>
 
-                        <a class="spaces" href="https://www.facebook.com/yankaikyaugusto.dossantos" target="_blank">
-                            <i class="fab fa-facebook"></i>
-                        </a>
+                <div class="blocks">Animations Image</div>
 
-                        <a class="spaces" href="https://github.com/22-YanKaiky" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+                <div class="blocks">Calculator</div>
+              </div>
 
-            <div class="row text-center mb-2">
-                <div class="col-md-12 col-lg-12">
-                    <small>&copy; 2021 <a href="mailto:yankaikys@gmail.com" target="_blank" class="eu">Yan Kaiky</a>. All rights reserved <a href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/" class="eu">Yan Kaiky</a></small>
-                </div>
-            </div>
-        </footer>
+              <div class="row-column-2">
+                <div class="blocks">Schedule-Screen</div>
 
-        <script src="./JS/index.js"></script>
-    </body>
+                <div class="blocks">Heal.th</div>
+
+                <div class="blocks">Number Analyzer</div>
+              </div>
+            </section><!-- section class="projetos" -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="row" id="footer-elementos">
+        <div class="col-md-3 col-lg-3">
+          <h4>Telefone</h4>
+          <a href="tel:+554799955" target="_blank" class="eu">
+            <p>(47) 99955-6723</p>
+          </a>
+        </div>
+
+        <div class="col-md-3 col-lg-3">
+          <div class="email">
+            <h4>E-mail</h4>
+            <p>
+              <a class="eu" href="mailto:yankaikys@.com">yankaikys@gmail.com</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-3">
+          <h4>Siga</h4>
+          <div class="links-redes-sociais">
+            <a
+              class="spaces"
+              href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a
+              class="spaces"
+              href="https://www.instagram.com/yank.a.s.12/"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              class="spaces"
+              href="https://www.facebook.com/yankaikyaugusto.dossantos"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a
+              class="spaces"
+              href="https://github.com/22-YanKaiky"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center mb-2">
+        <div class="col-md-12 col-lg-12">
+          <small
+            >&copy; 2021
+            <a href="mailto:yankaikys@gmail.com" target="_blank" class="eu"
+              >Yan Kaiky</a
+            >. All rights reserved
+            <a
+              href="https://www.linkedin.com/in/yan-kaiky-augusto-dos-santos-652418186/"
+              class="eu"
+              >Yan Kaiky</a
+            ></small
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="./JS/index.js"></script>
+  </body>
 </html>

@@ -1,5 +1,5 @@
 var nome = 'Yan Kaiky Augusto dos Santos';
-var cargo = 'PROGRAMADOR';
+var cargo = 'DEVELOPER JR';
 var nomehtml = document.getElementById("nome-no-html");
 var cargohtml = document.getElementById("cargo-no-html");
 var texto1 = document.getElementById("texto-1");

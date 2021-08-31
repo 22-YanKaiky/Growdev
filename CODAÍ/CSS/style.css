@@ -1,6 +1,7 @@
 body {
-    background-color: #F5F5F5;
+    background-color: black/* #F5F5F5 */;
     text-align: justify;
+    color: white;
 }
 
 .spaces {
@@ -16,7 +17,7 @@ body {
 
 .eu {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #btn-traducao {
@@ -68,7 +69,7 @@ body {
 }
 
 .card-perfil {
-    background-color: #19def0 !important;
+    background-color: #0199f7 !important;
     box-shadow: 0px 0px 5px #181a1b;
 }
 
@@ -118,7 +119,7 @@ body {
 }
 
 .links-redes-sociais i {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 23px;
     padding: 10px;
 }
@@ -130,6 +131,7 @@ body {
 
 #footer-elementos .email {
     padding: 15px 0px 15px 0px;
+    margin-top: -1rem;
 }
 
 @media (min-width: 900px) {
@@ -176,4 +178,21 @@ body {
 
 #texto-2 {
     display: none;
+}
+
+div.row-column-1 {
+    display: flex;
+}
+
+div.row-column-2 {
+    display: flex;
+}
+
+div.blocks {
+    background: #ffa700;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
 }
