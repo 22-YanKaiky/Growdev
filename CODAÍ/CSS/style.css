@@ -195,4 +195,10 @@ div.blocks {
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
+    width: 100%;
+}
+
+section.projetos {
+    width: 130%;
+    user-select: none;
 }
