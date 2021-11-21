@@ -114,6 +114,32 @@ body {
     padding: 5px 17px;
 }
 
+div.text > div {
+    margin-bottom: 1.5rem;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+div.text > div > h5 {
+    margin-bottom: 1.5rem;
+}
+
+div.text > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+div.text > div > a > span {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+div.text > div > a > span > img {
+    width: 6%;
+}
+
 .links-redes-sociais {
     text-decoration: none;
 }
